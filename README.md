@@ -9,10 +9,6 @@
 5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 6. [Study Trends & Performance Analysis](#study-trends--performance-analysis)
 7. [Key Findings & Insights](#key-findings--insights)
-8. [Next Steps](#next-steps)
-9. [How to Use This Project](#how-to-use-this-project)
-10. [Contributing](#contributing)
-11. [License](#license)
 
 ---
 
