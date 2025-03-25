@@ -1,21 +1,21 @@
 # **Student Performance Analysis: Descriptive Analytics**
 📊 *Analyzing student performance patterns using data visualization and descriptive analytics.*
 
-## Table of Contents
-[Project Overview](#project-overview)
-[Dataset Description](#dataset-description)
-[Analysis Steps](#analysis-steps)
-[Pyhton Code](#python-code)
-[Key Findings](#key-findings)
+## **Table of Contents**
+1. [Project Overview](#project-overview)
+2. [Dataset Description](#dataset-description)
+3. [Analysis Steps](#analysis-steps)
+4. [Pyhton Code](#python-code)
+5. [Key Findings](#key-findings)
 
 ---
 
-## Project Overview
+## **1. Project Overview**
 This project focuses on analyzing student performance patterns using data visualization and descriptive analytics. The dataset used contains information on students' socioeconomic scores, study hours, sleep hours, attendance percentages, and grades. The goal is to uncover insights into how these factors influence student performance.
 
 ---
 
-## Dataset Description
+## **2. Dataset Description**
 The dataset consists of multiple students with five key attributes:
 
 | Feature | Description |
@@ -26,11 +26,9 @@ The dataset consists of multiple students with five key attributes:
 | **Attendance (%)** | The percentage of classes attended by the student |
 | **Grades** | The final grades obtained by the student |
 
-Data was analyzed using **Python (Pandas, NumPy, Seaborn, Matplotlib)**.
-
 ---
 
-## Analysis Steps
+## **3. Analysis Steps**
 Data was analyzed using **Python (Pandas, NumPy, Seaborn, Matplotlib)**.
 
 ✅ **Step 1: Data Collection**  
@@ -47,7 +45,7 @@ Data was analyzed using **Python (Pandas, NumPy, Seaborn, Matplotlib)**.
 
 ---
 
-## Python Code
+## **4. Python Code**
 ### Data Collection
 ```python
 import pandas as pd
@@ -129,7 +127,7 @@ plt.show()
 
 ---
 
-## Key Findings & Insights
+## **5. Key Findings & Insights**
 ### 🔹 **Main Observations**
 - There is a positive correlation between Study Hours and Grades, indicating that students who study more tend to perform better.
 - Sleep Hours also show a positive correlation with Grades, suggesting that adequate sleep is important for academic performance.
