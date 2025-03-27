@@ -84,6 +84,8 @@ plt.xlabel('Grades')
 plt.ylabel('Frequency')
 plt.show()
 
+![image alt](https://github.com/datateles/python_student_performance_analysis/blob/100609410d144cc6c41ac2102fbd6dcf9bb4b4bb/student_performance_img/distribution_of_grades.png)
+
 # Scatter plot of Study Hours vs Grades
 plt.figure(figsize=(8, 6))
 sns.scatterplot(x='Study Hours', y='Grades', data=df)
@@ -91,6 +93,8 @@ plt.title('Study Hours vs Grades')
 plt.xlabel('Study Hours')
 plt.ylabel('Grades')
 plt.show()
+
+![image alt](https://github.com/datateles/python_student_performance_analysis/blob/100609410d144cc6c41ac2102fbd6dcf9bb4b4bb/student_performance_img/study_hours_vs_grades.png)
 
 # Scatter plot of Sleep Hours vs Grades
 plt.figure(figsize=(8, 6))
@@ -100,6 +104,8 @@ plt.xlabel('Sleep Hours')
 plt.ylabel('Grades')
 plt.show()
 
+![image alt](https://github.com/datateles/python_student_performance_analysis/blob/100609410d144cc6c41ac2102fbd6dcf9bb4b4bb/student_performance_img/sleep_hours_vs_grades.png)
+
 # Scatter plot of Attendance (%) vs Grades
 plt.figure(figsize=(8, 6))
 sns.scatterplot(x='Attendance (%)', y='Grades', data=df)
@@ -108,9 +114,13 @@ plt.xlabel('Attendance (%)')
 plt.ylabel('Grades')
 plt.show()
 
+![image alt](https://github.com/datateles/python_student_performance_analysis/blob/100609410d144cc6c41ac2102fbd6dcf9bb4b4bb/student_performance_img/attendance_(%25)_vs_grades.png)
+
 # Pairplot to visualize relationships between all numerical variables
 sns.pairplot(df)
 plt.show()
+
+![image alt](https://github.com/datateles/python_student_performance_analysis/blob/100609410d144cc6c41ac2102fbd6dcf9bb4b4bb/student_performance_img/pairplot.png)
 ```
 
 ### Correlation Analysis
@@ -123,6 +133,8 @@ plt.figure(figsize=(10, 8))
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
 plt.title('Correlation Matrix')
 plt.show()
+
+![image alt](https://github.com/datateles/python_student_performance_analysis/blob/100609410d144cc6c41ac2102fbd6dcf9bb4b4bb/student_performance_img/correlation_matrix.png)
 ```
 
 ---
