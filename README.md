@@ -6,6 +6,10 @@
 2. [Dataset Description](#dataset-description)
 3. [Analysis Steps](#analysis-steps)
 4. [Pyhton Code](#python-code)
+   - [4.1 Data Collection](#41-data-collection)  
+   - [4.2 Descriptive Statistics](#42-descriptive-statistics)  
+   - [4.3 Data Visualization](#43-data-visualization)  
+   - [4.4 Correlation Analysis](#44-correlation-analysis)   
 5. [Key Findings](#key-findings)
 
 ---
@@ -46,7 +50,7 @@ Data was analyzed using **Python (Pandas, NumPy, Seaborn, Matplotlib)**.
 ---
 
 ## **4. Python Code**
-### Data Collection
+### 4.1 Data Collection
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -65,13 +69,13 @@ print(df.isnull().sum())
 print(df.info())
 ```
 
-### Descriptive Statistics
+### 4.2 Descriptive Statistics
 ```python
 # Descriptive statistics for numerical columns
 print(df.describe())
 ```
 
-### Data Visualization
+### 4.3 Data Visualization
 ```python
 # Set the aesthetic style of the plots
 sns.set(style="whitegrid")
@@ -126,7 +130,7 @@ plt.show()
 ```
 ![image alt](https://github.com/datateles/python_student_performance_analysis/blob/100609410d144cc6c41ac2102fbd6dcf9bb4b4bb/student_performance_img/pairplot.png)
 
-### Correlation Analysis
+### 4.4 Correlation Analysis
 ```python
 # Correlation matrix
 corr_matrix = df.corr()
@@ -141,8 +145,8 @@ plt.show()
 
 ---
 
-## **5. Key Findings & Insights**
-### 🔹 **Main Observations**
+## **5. Key Findings**
+
 - There is a positive correlation between Study Hours and Grades, indicating that students who study more tend to perform better.
 - Sleep Hours also show a positive correlation with Grades, suggesting that adequate sleep is important for academic performance.
 - Attendance (%) has a moderate positive correlation with Grades, highlighting the importance of regular class attendance.
