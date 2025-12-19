@@ -10,7 +10,8 @@
    - [4.2 Descriptive Statistics](#42-descriptive-statistics)  
    - [4.3 Data Visualization](#43-data-visualization)  
    - [4.4 Correlation Analysis](#44-correlation-analysis)   
-5. [Key Findings](#key-findings)
+5. [Storytelling with Data](#storytelling-with-data)
+6. [Key Findings](#key-findings)
 
 ---
 
@@ -145,7 +146,14 @@ plt.show()
 
 ---
 
-## **5. Key Findings**
+## **5. Storytelling with Data**
+
+In progress with Microsoft Excel, a visually compelling narrative with data based on key findings. . . .
+
+---
+
+
+## **6. Key Findings**
 
 - There is a positive correlation between Study Hours and Grades, indicating that students who study more tend to perform better.
 - Sleep Hours also show a positive correlation with Grades, suggesting that adequate sleep is important for academic performance.
